@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = root>
+ 
+<!-- writiong code using html element-->
+
+   <h1>Hello from HTML</h1>
+
+    </div>
+
+    <!-- writing code using javascript-->
+
+
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello from Javascript";
+
+       // const root = document.getElementById("root");
+
+        root.appendChild(heading);
+
+    </script>
+
+    <!-- using React lets -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+
+    <script>
+        const headings = React.createElement("h2",{},"Hello from React");
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(headings)
+    </script>
+
+
+<!-- uncommnet it for getting effect from APp.js file-->
+    
+<!--<script src = "./App.js"></script>  
+
+</body>
+</html>
