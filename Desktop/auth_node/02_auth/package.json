@@ -1,0 +1,11 @@
+{
+  "name": "02_auth",
+  "version": "1.0.0",
+  "description": "user authentication and session management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saurav",
+  "license": "ISC"
+}
